@@ -4,7 +4,7 @@
   <groupId>com.org.app</groupId>
   <artifactId>core-engine</artifactId>
   <packaging>jar</packaging>
-  <version>3.0</version>
+  <version>4.0</version>
   <name>core-engine</name>
   <url>http://maven.apache.org</url>
   
