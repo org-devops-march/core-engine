@@ -39,18 +39,17 @@
   <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>core-engine-release</id>
-      <name>core-engine-release</name>
-      <url>http://ec2-54-75-152-253.eu-west-1.compute.amazonaws.com:8081/repository/core-engine-release/</url>
+      <id>coreengine-snapshots</id>
+      <name>coreengine-snapshots</name>
+      <url>http://ec2-54-75-152-253.eu-west-1.compute.amazonaws.com:8081/repository/coreengine-snapshots/</url>
        <layout>legacy</layout> 
     </repository>
-    
-        
+            
     <snapshotRepository>
       <uniqueVersion>false</uniqueVersion>
-      <id>core-engine-snapshot</id>
-      <name>core-engine-snapshot</name>
-      <url>http://ec2-54-75-152-253.eu-west-1.compute.amazonaws.com:8081/repository/core-engine-snapshot/</url>
+      <id>coreengine-snapshots</id>
+      <name>coreengine-snapshots</name>
+      <url>http://ec2-54-75-152-253.eu-west-1.compute.amazonaws.com:8081/repository/coreengine-snapshots/</url>
       <layout>legacy</layout> 
    </snapshotRepository>
     
