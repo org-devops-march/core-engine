@@ -41,14 +41,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>coreengine-release</id>
       <name>coreengine-release</name>
-      <url>http://172.31.22.166:8081/repository/coreengine-release/</url>
+      <url>http://ec2-54-75-152-253.eu-west-1.compute.amazonaws.com:8081/repository/coreengine-release/</url>
        <layout>legacy</layout> 
     </repository>
     <snapshotRepository>
       <uniqueVersion>false</uniqueVersion>
       <id>coreengine-snapshots</id>
       <name>coreengine-snapshots</name>
-      <url>http://172.31.22.166:8081/repository/coreengine-snapshots/</url>
+      <url>http://ec2-54-75-152-253.eu-west-1.compute.amazonaws.com:8081/repository/coreengine-snapshots/</url>
       <layout>legacy</layout>
    </snapshotRepository>
   </distributionManagement>
