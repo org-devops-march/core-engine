@@ -8,10 +8,10 @@
   <name>core-engine</name>
   <url>http://maven.apache.org</url> 
   
-    <properties>
+   <properties>
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
-</properties>
+  </properties>
   
   <dependencies>
     <dependency>
@@ -52,6 +52,6 @@
       <url>http://172.31.22.166:8081/repository/coreengine-snapshots/</url>
       <layout>legacy</layout>
    </snapshotRepository>
-    
   </distributionManagement>
+
 </project>
