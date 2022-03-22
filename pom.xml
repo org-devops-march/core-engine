@@ -22,16 +22,7 @@
     </dependency>
   </dependencies>
   
-  <distributionManagement>
-    <repository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>core-engine-release</id>
-      <name>core-engine-release</name>
-      <url>http://ec2-54-75-152-253.eu-west-1.compute.amazonaws.com:8081/repository/core-engine-release/</url>
-       <layout>legacy</layout> 
-    </repository>
-    
-        <build>
+  <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -43,7 +34,18 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+  </build>
+  
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>core-engine-release</id>
+      <name>core-engine-release</name>
+      <url>http://ec2-54-75-152-253.eu-west-1.compute.amazonaws.com:8081/repository/core-engine-release/</url>
+       <layout>legacy</layout> 
+    </repository>
+    
+        
     <snapshotRepository>
       <uniqueVersion>false</uniqueVersion>
       <id>core-engine-snapshot</id>
