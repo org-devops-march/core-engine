@@ -4,7 +4,7 @@
   <groupId>com.org.app</groupId>
   <artifactId>core-engine</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>core-engine</name>
   <url>http://maven.apache.org</url>
   
@@ -39,9 +39,9 @@
   <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>coreengine-snapshots</id>
-      <name>coreengine-snapshots</name>
-      <url>http://ec2-54-75-152-253.eu-west-1.compute.amazonaws.com:8081/repository/coreengine-snapshots/</url>
+      <id>coreengine-release</id>
+      <name>coreengine-release</name>
+      <url>http://ec2-54-75-152-253.eu-west-1.compute.amazonaws.com:8081/repository/coreengine-release/</url>
        <layout>legacy</layout> 
     </repository>
             
