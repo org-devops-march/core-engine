@@ -50,7 +50,7 @@
       <id>coreengine-snapshots</id>
       <name>coreengine-snapshots</name>
       <url>http://172.31.22.166:8081/repository/coreengine-snapshots/</url>
-      <layout>legacy</layout> 
+      <layout>legacy</layout>
    </snapshotRepository>
     
   </distributionManagement>
