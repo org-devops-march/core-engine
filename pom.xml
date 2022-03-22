@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <version>3.0</version>
   <name>core-engine</name>
-  <url>http://maven.apache.org</url> 
+  <url>http://maven.apache.org</url>
   
    <properties>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -44,7 +44,6 @@
       <url>http://172.31.22.166:8081/repository/coreengine-release/</url>
        <layout>legacy</layout> 
     </repository>
-            
     <snapshotRepository>
       <uniqueVersion>false</uniqueVersion>
       <id>coreengine-snapshots</id>
@@ -53,5 +52,4 @@
       <layout>legacy</layout>
    </snapshotRepository>
   </distributionManagement>
-
 </project>
