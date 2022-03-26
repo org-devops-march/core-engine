@@ -10,8 +10,8 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/org-devops-march/core-engine.git'
-                bat "mvn -Dmaven.test.failure.ignore=true clean package"
+                git branch: 'main', url: 'https://github.com/org-devops-march/core-engine.git'
+                sh "mvn -Dmaven.test.failure.ignore=true clean package"
             }
 
             post {
