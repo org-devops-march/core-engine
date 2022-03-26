@@ -11,7 +11,7 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 git branch: 'main', url: 'https://github.com/org-devops-march/core-engine.git'
-                sh "mvn -Dmaven.test.failure.ignore=true clean package"
+                sh "mvn -Dmaven.test.failure.ignore=true clean deploy -s settings.xml"
             }
 
             post {
@@ -22,17 +22,11 @@ pipeline {
                     archiveArtifacts 'target/*.jar'
                 }
             }
-
-            stage('Deploy') {
-            steps {
-                // Get some code from a GitHub repository
-                git branch: 'main', url: 'https://github.com/org-devops-march/core-engine.git'
-                sh "mvn -Dmaven.test.failure.ignore=true clean deploy"
-            }
-            post {
-                sh echo "started deployment on dev"
-                }
-            }
+        }
+        stage('Deploy') {
+        steps {
+           sh 'echo "started deployment on dev"'
         }
     }
+}
 }
