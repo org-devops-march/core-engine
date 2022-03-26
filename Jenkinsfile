@@ -22,6 +22,17 @@ pipeline {
                     archiveArtifacts 'target/*.jar'
                 }
             }
+
+            stage('Deploy') {
+            steps {
+                // Get some code from a GitHub repository
+                git branch: 'main', url: 'https://github.com/org-devops-march/core-engine.git'
+                sh "mvn -Dmaven.test.failure.ignore=true clean deploy"
+            }
+            post {
+                sh echo "started deployment on dev"
+                }
+            }
         }
     }
 }
